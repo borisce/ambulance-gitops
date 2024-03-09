@@ -6,3 +6,5 @@ commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 resources:
   - ../../../apps/boce-ambulance-ufe
+components:
+ - ../../../components/version-developers  
