@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: boce-ambulance-webapi
+spec:
+  template:
+    spec:
+      containers:
+        - name: openapi-ui
+          env:
+            - name: URL
+              value: /boce-openapi
+            - name: BASE_URL
+              value: /boce-openapi-ui
