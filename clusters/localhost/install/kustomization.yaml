@@ -6,5 +6,9 @@ commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 resources:
   - ../../../apps/boce-ambulance-ufe
+  - ../../../apps/boce-ambulance-webapi
 components:
- - ../../../components/version-developers  
+ - ../../../components/version-developers
+ - https://github.com/borisce/ambulance-webapi//deployments/kustomize/components/mongodb
+patches:
+ - path: patches/ambulance-webapi.service.yaml   

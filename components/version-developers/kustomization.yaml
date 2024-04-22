@@ -1,6 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
+- name: boriscernak/ambulance-wl-webapi
+  newName: boriscernak/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: boriscernak/ambulance-ufe
   newName: boriscernak/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
   newTag: main.20240421.0947 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
