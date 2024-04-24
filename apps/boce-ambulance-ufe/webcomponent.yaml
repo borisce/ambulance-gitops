@@ -9,7 +9,7 @@ spec:
     - element: boce-ambulance-wl-app
       attributes:
       - name: api-base
-        value: http://localhost:30081/api
+        value: /boce-api
       - name: ambulance-id
         value: bobulova
       path: boce-ambulance-wl
