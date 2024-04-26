@@ -7,6 +7,7 @@ commonLabels:
 resources:
   - ../../../apps/boce-ambulance-ufe
   - ../../../apps/boce-ambulance-webapi
+  - ../../../apps/mongo-express
 components:
  - ../../../components/version-developers
  - https://github.com/borisce/ambulance-webapi//deployments/kustomize/components/mongodb
