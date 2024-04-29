@@ -9,6 +9,7 @@ resources:
   - ../../../apps/boce-ambulance-webapi
   - ../../../apps/mongo-express
   - ../../../apps/http-echo
+  - ../../../apps/observability-webc
 components:
  - ../../../components/version-developers
  - https://github.com/borisce/ambulance-webapi//deployments/kustomize/components/mongodb
